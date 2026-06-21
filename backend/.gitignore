@@ -1,0 +1,33 @@
+@"
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Environment Variables
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Build Files
+dist/
+build/
+*.egg-info/
+
+# Playwright Reports
+playwright-report/
+test-results/
+"@ | Out-File .gitignore
