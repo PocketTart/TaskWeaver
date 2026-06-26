@@ -595,5 +595,47 @@ GET  /executions/{run_id}/logs
 * Implemented complete execution observability through workflow history and step-level execution logs.
 * Developed AI-powered result summarization for browser-extracted data.
 
+
+
+
+## Live Deployment
+
+### Backend API
+
+The backend is deployed on **Hugging Face Spaces (Docker)** and exposes the complete REST API.
+
+**Base URL**
+
+```
+https://pocketskye-taskweaver.hf.space
+```
+
+### API Documentation
+
+Interactive Swagger UI:
+
+```
+https://pocketskye-taskweaver.hf.space/docs
+```
+
+OpenAPI Specification:
+
+```
+https://pocketskye-taskweaver.hf.space/openapi.json
+```
+
+### Features Available
+
+* User Registration & Login (JWT Authentication)
+* Natural Language Workflow Creation
+* Workflow Validation
+* Manual Workflow Execution
+* Scheduled Workflow Execution
+* Workflow History
+* Execution Logs
+* AI-Powered Result Summarization
+
+> **Note:** The application uses a headless Playwright browser running inside a Docker container for browser automation.
+
 ```
 ```
